@@ -3,13 +3,13 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 export default class Messager extends Component {
-  static propTypes = {
-    src: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired,
-    content: PropTypes.string.isRequired,
-    time: PropTypes.string.isRequired,
-    handleMessagerChange: PropTypes.func.isRequired
-  }
+  // static propTypes = {
+  //   src: PropTypes.string.isRequired,
+  //   name: PropTypes.string.isRequired,
+  //   content: PropTypes.string.isRequired,
+  //   time: PropTypes.string.isRequired,
+  //   handleMessagerChange: PropTypes.func.isRequired
+  // }
 
   render() {
     const { src, name, content, time, handleMessagerChange } = this.props;

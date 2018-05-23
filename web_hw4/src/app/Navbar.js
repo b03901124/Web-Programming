@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 export default class Navbar extends Component {
-  static propTypes = {
-    onlineUserNum: PropTypes.number.isRequired,
-    handleUserNumChange: PropTypes.func.isRequired,
-    userID: PropTypes.string,
-    userName: PropTypes.string,
-    userPic: PropTypes.string,
-  }
+  // static propTypes = {
+  //   onlineUserNum: PropTypes.number.isRequired,
+  //   handleUserNumChange: PropTypes.func.isRequired,
+  //   userID: PropTypes.string,
+  //   userName: PropTypes.string,
+  //   userPic: PropTypes.string,
+  // }
 
   componentWillUnmount () {
   }

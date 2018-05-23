@@ -2,16 +2,16 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 export default class MessageItem extends Component {
-  static propTypes = {
-    fromMe: PropTypes.bool.isRequired,
-    userID: PropTypes.string,
-    userName: PropTypes.string,
-    userPic: PropTypes.string,
-    text: PropTypes.string.isRequired,
-    time: PropTypes.string.isRequired,
-    icon: PropTypes.string,
-    handleMessagerAdd: PropTypes.func.isRequired,
-  }
+  // static propTypes = {
+  //   fromMe: PropTypes.bool.isRequired,
+  //   userID: PropTypes.string,
+  //   userName: PropTypes.string,
+  //   userPic: PropTypes.string,
+  //   text: PropTypes.string.isRequired,
+  //   time: PropTypes.string.isRequired,
+  //   icon: PropTypes.string,
+  //   handleMessagerAdd: PropTypes.func.isRequired,
+  // }
   constructor(props) {
     super(props);
     this.handleMessagerClick = this.handleMessagerClick.bind(this)

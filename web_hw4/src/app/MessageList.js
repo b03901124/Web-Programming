@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import MessageItem from './MessageItem';
 
 export default class MessageList extends Component {
-  static propTypes = {
-    threads: PropTypes.object.isRequired,
-    id_: PropTypes.string.isRequired,
-    handleMessagerAdd: PropTypes.func.isRequired
-  }
+  // static propTypes = {
+  //   threads: PropTypes.object.isRequired,
+  //   id_: PropTypes.string.isRequired,
+  //   handleMessagerAdd: PropTypes.func.isRequired
+  // }
 
   render() {
     const { threads, id_, name_, handleMessagerAdd} = this.props;
